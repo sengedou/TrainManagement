@@ -6,9 +6,9 @@ package com.project.bean;
 public class StudentInfoBean {
 	//主键ID
 	private int id;
-	//年龄
+	// 年龄
 	private int age;
-	//性别
+	// 性别
 	private String sex;
 	// 电话
 	private String phone;
@@ -22,6 +22,8 @@ public class StudentInfoBean {
 	private String contactsPhone;
 	// 证件照
 	private String photo;
+	// 毕业院校
+	private String school;
 	// 学历
 	private String education;
 	// 专业
@@ -107,6 +109,12 @@ public class StudentInfoBean {
 	}
 	public void setStu(StudentBean stu) {
 		this.stu = stu;
+	}
+	public String getSchool() {
+		return school;
+	}
+	public void setSchool(String school) {
+		this.school = school;
 	}
 	
 }

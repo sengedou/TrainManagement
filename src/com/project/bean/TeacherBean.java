@@ -9,7 +9,8 @@ public class TeacherBean {
 	private int id;
 	// 讲师姓名
 	private String teacherName;
-	
+	// 教师状态
+	private int state;
 	public int getId() {
 		return id;
 	}
@@ -21,6 +22,12 @@ public class TeacherBean {
 	}
 	public void setTeacherName(String teacherName) {
 		this.teacherName = teacherName;
+	}
+	public int getState() {
+		return state;
+	}
+	public void setState(int state) {
+		this.state = state;
 	}
 	
 }
