@@ -31,12 +31,14 @@ public class ClassBean {
 	public void setClassName(String className) {
 		this.className = className;
 	}
+
 	public PeriodBean getPeriod() {
 		return period;
 	}
 	public void setPeriod(PeriodBean period) {
 		this.period = period;
 	}
+	
 	public TeacherBean getTeacher() {
 		return teacher;
 	}
