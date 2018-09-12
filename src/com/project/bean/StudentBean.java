@@ -1,4 +1,4 @@
-package com.project.bean;
+﻿package com.project.bean;
 /**
  * @author 杨阳
  * 学生的bean对象

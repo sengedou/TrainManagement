@@ -1,4 +1,4 @@
-package com.project.bean;
+﻿package com.project.bean;
 
 import java.util.List;
 
@@ -31,7 +31,7 @@ public class ClassBean {
 	public void setClassName(String className) {
 		this.className = className;
 	}
-	
+
 	public PeriodBean getPeriod() {
 		return period;
 	}

@@ -1,18 +1,18 @@
 package com.project.bean;
 
 /**
- * ½×¶ÎÊµÌå
+ * é˜¶æ®µå®ä½“
  * 
- * @author ĞìÕş
+ * @author å¾æ”¿
  *
  */
 public class PeriodBean {
 	/**
-	 * ½×¶Îid
+	 * é˜¶æ®µid
 	 */
 	private int pid;
 	/**
-	 * ½×¶ÎÃû³Æ
+	 * é˜¶æ®µåç§°
 	 */
 	private int pname;
 
