@@ -1,4 +1,4 @@
-package com.project.service;
+﻿package com.project.service;
 
 import java.util.List;
 
@@ -26,6 +26,5 @@ public interface ITecInterViewService {
 	 * @param bean 技术面试实体
 	 */
 	public void interview(TecInterViewBean bean);
-
 	
 }
